@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/viewCart"
+        android:title="View Cart"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/Viewres"
+        android:title="View Restaurants"
+        android:showAsAction="never" />
+</menu>

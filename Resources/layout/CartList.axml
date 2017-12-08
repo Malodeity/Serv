@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aqa">
+    <TextView
+        android:id="@+id/txtProdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/txtProdDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/txtProdPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/txttotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/txtQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:layout_gravity="center" />
+    <ListView
+        android:id="@+id/listAhh1"
+        android:layout_width="fill_parent"
+        android:layout_height="386.0dp"
+        android:transcriptMode="alwaysScroll"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@android:color/transparent"
+        android:layout_marginTop="0.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginRight="0.0dp" />
+    <Button
+        android:text="Checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheck" />
+</LinearLayout>

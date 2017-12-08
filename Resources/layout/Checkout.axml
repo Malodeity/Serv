@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aqa">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="PLACE ORDER"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Delivery Address:" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOrderAddress" />
+    <Button
+        android:text="Place Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPlaceOrder"
+        android:gravity="center" />
+    <Button
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_address_button"
+        android:text="Get Current Address" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:text="Location (when available)"
+        android:id="@+id/location_text"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:textColor="#ffffebee"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:text="Address (when available)"
+        android:id="@+id/address_text"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#ffffebee"
+        android:textStyle="bold"
+        android:paddingTop="200dp" />
+</LinearLayout>

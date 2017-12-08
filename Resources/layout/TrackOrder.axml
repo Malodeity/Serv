@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/largeBack">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="YOUR ORDER"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="14.5dp"
+        android:textColor="#ff00c853" />
+    <ImageView
+        android:src="@drawable/orsermap"
+        android:layout_width="385.5dp"
+        android:layout_height="454.5dp"
+        android:id="@+id/imageView1"
+        android:layout_marginLeft="0.0dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65.0dp"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ff00c853" />
+</LinearLayout>

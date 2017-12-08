@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{B1C3380C-4CA2-48AD-A42F-401E7D3EA426}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CheckoutActivity.cs">
+    <Files>
+      <File FileName="LoginActivity.cs" Line="91" Column="1" />
+      <File FileName="RegisterActivity.cs" Line="38" Column="40" />
+      <File FileName="PaymentsActivity.cs" Line="71" Column="38" />
+      <File FileName="RestaurantActivity.cs" Line="31" Column="34" />
+      <File FileName="UpdateActivity.cs" Line="53" Column="28" />
+      <File FileName="ResView.cs" Line="18" Column="16" />
+      <File FileName="CartActivity.cs" Line="1" Column="1" />
+      <File FileName="CheckoutActivity.cs" Line="129" Column="14" />
+      <File FileName="Models/DataAccess.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rss/Projects/UberEatsV1/UberEatsV1/Resources/layout/PaymentActivity.cs" relfile="Resources/layout/PaymentActivity.cs" line="69" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UberEatsV1 AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_4_API_23" AndroidDesignerPreferredTheme="Theme.NoTitleBar" />
+  <MultiItemStartupConfigurations />
+</Properties>
